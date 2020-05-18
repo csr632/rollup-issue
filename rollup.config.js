@@ -14,7 +14,7 @@ export default {
   ],
   output: {
     format: "iife",
-    dir: "dist",
+    file: "dist/rollup-out.js",
   },
   // treeshake: false
 };

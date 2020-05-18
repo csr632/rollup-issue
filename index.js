@@ -1,3 +1,7 @@
-import { Nav } from "@alifd/next";
+import { Menu } from "antd";
 
-console.log(Nav, Nav.Item)
+console.log(Menu)
+console.log(Menu.SubMenu)
+
+// import { Nav } from "@alifd/next";
+// console.log(Nav.Item)
