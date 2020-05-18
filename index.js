@@ -1,19 +1,5 @@
-// import { Menu } from "@alifd/next";
-// console.log(Menu.SubMenu);
+import DefaultExport from "test-package-default-export";
+console.log("test-package-default-export", DefaultExport.Item);
 
-// import { Nav } from "@alifd/next";
-// console.log(Nav.Item);
-
-// import { Collapse } from "@alifd/next";
-// console.log(Collapse.Panel);
-
-
-import { Menu } from "test-package";
-console.log(Menu);
-console.log(Menu.Item);
-
-
-// import { Menu } from "antd";
-
-// console.log(Menu);
-// console.log(Menu.Item);
+import { Menu as NamedExport } from "test-package-named-export";
+console.log("test-package-named-export", NamedExport.Item);

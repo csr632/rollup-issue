@@ -3514,7 +3514,11 @@ terser@^4.1.2:
     source-map "~0.6.1"
     source-map-support "~0.5.12"
 
-"test-package@link:./test-package":
+"test-package-default-export@link:./test-package-default-export":
+  version "0.0.0"
+  uid ""
+
+"test-package-named-export@link:./test-package-named-export":
   version "0.0.0"
   uid ""
 

@@ -23,6 +23,7 @@
     "antd": "^4.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "test-package": "link:./test-package"
+    "test-package-default-export": "link:./test-package-default-export",
+    "test-package-named-export": "link:./test-package-named-export"
   }
 }

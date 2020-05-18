@@ -5,6 +5,6 @@ import Menu from "./menu";
 import Item from "./item";
 
 Menu.Item = Item;
-console.log("side effect!");
+console.log("side effect in test-package-default-export");
 
-export { Menu };
+export default Menu;
