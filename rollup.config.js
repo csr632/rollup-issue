@@ -1,14 +1,20 @@
 import commonjs from "@rollup/plugin-commonjs";
+import resolve from "@rollup/plugin-node-resolve";
+import replace from "@rollup/plugin-replace";
 
 export default {
-  input: {
-    t1: "test1.js",
-    t2: "test2.js",
-  },
-  plugins: [commonjs()],
+  input: "index.js",
+  plugins: [
+    commonjs(),
+    resolve(),
+    replace({
+      "window.process.env.NODE_ENV": JSON.stringify("production"),
+      "process.env.NODE_ENV": JSON.stringify("production"),
+    }),
+  ],
   output: {
-    format: "esm",
+    format: "iife",
     dir: "dist",
-    exports: "named",
   },
+  // treeshake: false
 };
