@@ -1,6 +1,11 @@
-import * as exp from "./cjs";
-import m from "./module";
+import * as PropTypes from 'prop-types';
+import PropTypes2 from 'prop-types';
 
-console.log(m);
+const Content = {
+  className: PropTypes.string,
+};
 
-console.log(exp.string);
+const V = {
+  n: PropTypes2.node,
+}
+console.log(Content, V)

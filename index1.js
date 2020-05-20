@@ -1,3 +1,3 @@
-import exp from "./cjs";
+import PropTypes from 'prop-types';
 
-console.log(exp.node);
+console.log(PropTypes)
