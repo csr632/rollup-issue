@@ -1,3 +1,3 @@
-import { p as propTypes } from './index-28f8696c.js';
+import { p as propTypes } from './index-23b4177d.js';
 
 console.log(propTypes);
