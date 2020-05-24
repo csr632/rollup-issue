@@ -1,6 +1,3 @@
-const test2 = require("./test2");
-
-module.exports = {
-  b: 2,
-  test2,
-};
+const t2 = require('./test2')
+console.log(t2)
+module.exports = 1
