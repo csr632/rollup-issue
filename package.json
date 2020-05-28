@@ -7,7 +7,7 @@
     "rollup": "rollup -c",
     "webpack": "webpack",
     "build": "npm run rollup && npm run webpack",
-    "serve": "serve",
+    "serve": "npm run rollup && serve",
     "debug": "npx --node-arg=--inspect-brk rollup -c"
   },
   "devDependencies": {

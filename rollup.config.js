@@ -10,14 +10,7 @@ import * as propTypes from "prop-types";
 export default {
   input: "index.js",
   plugins: [
-    commonjs({
-      namedExports: {
-        react: Object.keys(react),
-        "react-dom": Object.keys(reactDom),
-        "react-is": Object.keys(reactIs),
-        "prop-types": Object.keys(propTypes),
-      },
-    }),
+    commonjs(),
     resolve(),
     replace({
       "window.process.env.NODE_ENV": JSON.stringify("production"),
